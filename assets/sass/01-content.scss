@@ -10,11 +10,11 @@
 //-------------------------------------------------------------------------------
 
 // Colors
-$color-background 	: #061C30;
+$color-background 	: #340000;
 $color-text			: #848d96;
 $color-link			: #848d96;
-$color-link-hover	: #CA486d; 
-$color-maverick		: #47bec7; 
+$color-link-hover	: #A74B4B; 
+$color-maverick		: #A74B4B; 
 $color-tagline		: #CCCCCC; 
 
 // Breakpoints
@@ -23,7 +23,7 @@ $bp-tablet 			: 800px;
 $bp-mobile 			: 500px;
 
 // Images
-$image-background	: url('../../images/background.jpg');
+$image-background	: url('../bg.jpg');
 
 //-------------------------------------------------------------------------------
 // Fade In
