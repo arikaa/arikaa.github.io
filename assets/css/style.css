@@ -7,7 +7,7 @@ Description: Split is a centrally-divided layout for a professional online prese
 */
 /* -- CSS Reset -- */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
-@import url("https://fonts.googleapis.com/css?family=Lora");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -113,11 +113,12 @@ body.page-template-page-fullsingle-split {
   font-size: 21px;
   line-height: 33px;
   letter-spacing: -0.2px;
-  color: #848d96;
+  color: #CCCCCC;
   -webkit-animation: fadein 2s;
           animation: fadein 2s; }
   body.page-template-page-fullsingle-split p {
-    color: #848d96; }
+    color: #CCCCCC;
+    opacity: 0.8; }
 
 .fs-split {
   width: 100vw;
@@ -188,7 +189,7 @@ body.page-template-page-fullsingle-split {
 .split-bio {
   padding: 40px 0 40px 0;
   font-size: 85%;
-  font-family: 'Lora', serif; }
+  font-family: 'Raleway', sans-serif; }
   @media (max-width: 1200px) {
     .split-bio {
       padding: 30px 0; } }
@@ -200,12 +201,13 @@ body.page-template-page-fullsingle-split {
   .split-bio a {
     color: #E5D5D7;
     transition-duration: 0.5s;
-    border-bottom: 1px dotted #848d96; }
+    border-bottom: 1px dotted #CCCCCC; }
     .split-bio a:hover {
       color: #A74B4B;
       transition-duration: 0.1s;
       border-bottom: 1px dotted #A74B4B; }
 
+.split-lists { display: flex; }
 .split-lists .split-list {
   width: 30%;
   display: inline-block;
@@ -219,7 +221,7 @@ body.page-template-page-fullsingle-split {
     font-size: 11px;
     line-height: 11px;
     margin-bottom: 31px;
-    color: #848d96;
+    color: #CCCCCC;
     letter-spacing: 2px;
     opacity: 0.5; }
   .split-lists .split-list ul li {
@@ -227,7 +229,8 @@ body.page-template-page-fullsingle-split {
     line-height: 16px;
     margin-bottom: 12px; }
     .split-lists .split-list ul li a {
-      color: #848d96;
+      color: #CCCCCC;
+      opacity: 0.8;
       transition-duration: 0.5s; }
       .split-lists .split-list ul li a:hover {
         color: #A74B4B;
@@ -239,7 +242,7 @@ body.page-template-page-fullsingle-split {
     font-size: 12px;
     line-height: 14px; }
     .split-credit p a {
-      color: #848d96; }
+      color: #CCCCCC; }
 
       .filler {
         visibility: hidden;
